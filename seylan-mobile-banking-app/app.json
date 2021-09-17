@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "seylan-mobile-banking-app",
+    "slug": "seylan-mobile-banking-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "seylan-mobile-banking-app"
+}

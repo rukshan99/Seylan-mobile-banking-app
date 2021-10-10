@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutterapp/seylanmobilebankingappapp/generatedfundtransferregisteredaccountwidget/generated/GeneratedRightWidget58.dart';
 import 'package:flutterapp/seylanmobilebankingappapp/generatedfundtransferregisteredaccountwidget/generated/GeneratedWidget28.dart';
 import 'package:flutterapp/seylanmobilebankingappapp/generatedfundtransferregisteredaccountwidget/generated/GeneratedRectangle800Widget29.dart';
@@ -12,6 +13,27 @@ class GeneratedGroup12709Widget19 extends StatelessWidget {
     return Container(
       width: 330.0,
       height: 44.0,
+      decoration: BoxDecoration(
+        boxShadow: kIsWeb
+            ? []
+            : [
+          BoxShadow(
+            color: Color.fromARGB(25, 0, 0, 0),
+            offset: Offset(0.0, 4.0),
+            blurRadius: 6.0,
+          ),
+          BoxShadow(
+            color: Color.fromARGB(15, 0, 0, 0),
+            offset: Offset(0.0, 2.0),
+            blurRadius: 4.0,
+          ),
+          BoxShadow(
+            color: Color.fromARGB(12, 0, 0, 0),
+            offset: Offset(0.0, 0.0),
+            blurRadius: 10.0,
+          )
+        ],
+      ),
       child: Stack(
           fit: StackFit.expand,
           alignment: Alignment.center,

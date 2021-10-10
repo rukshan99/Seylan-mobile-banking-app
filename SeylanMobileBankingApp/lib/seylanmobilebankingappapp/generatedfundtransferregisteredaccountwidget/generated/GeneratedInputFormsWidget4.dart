@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutterapp/seylanmobilebankingappapp/generatedfundtransferregisteredaccountwidget/generated/GeneratedGroup12709Widget19.dart';
 
 /* Frame Input Forms
@@ -8,7 +9,11 @@ class GeneratedInputFormsWidget4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
+
+
       borderRadius: BorderRadius.zero,
+
+
       child: Container(
         width: 330.0,
         height: 44.0,

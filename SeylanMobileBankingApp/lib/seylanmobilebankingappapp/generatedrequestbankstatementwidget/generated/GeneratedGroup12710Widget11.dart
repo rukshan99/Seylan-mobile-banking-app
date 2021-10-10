@@ -30,7 +30,7 @@ class GeneratedGroup12710Widget11 extends StatelessWidget {
               top: 6.92657470703125,
               right: null,
               bottom: null,
-              width: 136.5672149658203,
+              width: 102.73562622070312,
               height: 11.545249938964844,
               child: Generated01072021Widget2(),
             )

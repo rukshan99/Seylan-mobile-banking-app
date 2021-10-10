@@ -36,7 +36,7 @@ class GeneratedHomeWidget extends StatelessWidget {
                               ),
                             ),
                             Positioned(
-                              left: -10.0,
+                              left: 10.0,
                               top: 148.0,
                               right: null,
                               bottom: null,
@@ -45,7 +45,7 @@ class GeneratedHomeWidget extends StatelessWidget {
                               child: GeneratedGroup12761Widget(),
                             ),
                             Positioned(
-                              left: 0.0,
+                              left: 15.0,
                               top: 0.0,
                               right: null,
                               bottom: null,
@@ -54,7 +54,7 @@ class GeneratedHomeWidget extends StatelessWidget {
                               child: GeneratedGroup12759Widget(),
                             ),
                             Positioned(
-                              left: 5.0,
+                              left: 22.0,
                               top: 487.0,
                               right: null,
                               bottom: null,

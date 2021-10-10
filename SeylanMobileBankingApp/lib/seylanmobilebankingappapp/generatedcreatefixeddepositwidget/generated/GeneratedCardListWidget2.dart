@@ -32,17 +32,6 @@ class GeneratedCardListWidget2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        boxShadow: kIsWeb
-            ? []
-            : [
-                BoxShadow(
-                  color: Color.fromARGB(56, 0, 0, 0),
-                  offset: Offset(0.0, 2.0),
-                  blurRadius: 6.0,
-                )
-              ],
-      ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16.0),
         child: Container(
@@ -184,11 +173,11 @@ class GeneratedCardListWidget2 extends StatelessWidget {
                   child: GeneratedSelectTypeWidget1(),
                 ),
                 Positioned(
-                  left: 303.0,
+                  left: 48.0,
                   top: 101.0,
                   right: null,
                   bottom: null,
-                  width: 49.0,
+                  width: 300.0,
                   height: 22.0,
                   child: GeneratedAmountWidget1(),
                 ),
@@ -238,8 +227,8 @@ class GeneratedCardListWidget2 extends StatelessWidget {
                   child: GeneratedGroup12715Widget1(),
                 ),
                 Positioned(
-                  left: 76.0,
-                  top: 588.0,
+                  left: 80.0,
+                  top: 594.0,
                   right: null,
                   bottom: null,
                   width: 95.99994659423828,
@@ -257,7 +246,7 @@ class GeneratedCardListWidget2 extends StatelessWidget {
                 ),
                 Positioned(
                   left: 246.0,
-                  top: 588.0,
+                  top: 594.0,
                   right: null,
                   bottom: null,
                   width: 95.99994659423828,

@@ -23,17 +23,6 @@ class GeneratedCardListWidget1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        boxShadow: kIsWeb
-            ? []
-            : [
-                BoxShadow(
-                  color: Color.fromARGB(56, 0, 0, 0),
-                  offset: Offset(0.0, 2.0),
-                  blurRadius: 6.0,
-                )
-              ],
-      ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16.0),
         child: Container(
@@ -176,12 +165,12 @@ class GeneratedCardListWidget1 extends StatelessWidget {
                   child: GeneratedSAVINGACCOUNTWidget(),
                 ),
                 Positioned(
-                  left: 296.0,
+                  left: 50,
                   top: 129.0,
                   right: null,
                   bottom: null,
-                  width: 52.0,
-                  height: 25.0,
+                  width: 300.0,
+                  height: 20.0,
                   child: GeneratedAmountWidget(),
                 )
               ]),

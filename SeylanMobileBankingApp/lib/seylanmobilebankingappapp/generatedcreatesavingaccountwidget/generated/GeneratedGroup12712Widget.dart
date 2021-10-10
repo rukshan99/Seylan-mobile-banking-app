@@ -31,7 +31,7 @@ class GeneratedGroup12712Widget extends StatelessWidget {
               top: 7.0,
               right: null,
               bottom: null,
-              width: 141.0,
+              width: 300.0,
               height: 22.0,
               child: GeneratedESAVINGSTATEMENTACCOUNTSWidget(),
             ),

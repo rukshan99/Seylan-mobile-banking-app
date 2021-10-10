@@ -27,6 +27,7 @@ class GeneratedGroup12709Widget4 extends StatelessWidget {
               child: GeneratedRectangle800Widget7(),
             ),
             Positioned(
+
               left: 14.363636016845703,
               top: 9.090909004211426,
               right: null,

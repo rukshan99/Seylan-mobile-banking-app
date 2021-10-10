@@ -10,57 +10,28 @@ class GeneratedGroup12710Widget4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () =>
+      child: ElevatedButton(
+      onPressed: () =>
           Navigator.pushNamed(context, '/GeneratedAccountInformationWidget'),
+          style: ElevatedButton.styleFrom(
+            primary: Color.fromARGB(255, 143, 6, 6) , // This is what you need!
+          ),
       child: Container(
         width: 110.0,
         height: 41.0,
-        decoration: BoxDecoration(
-          boxShadow: kIsWeb
-              ? []
-              : [
-                  BoxShadow(
-                    color: Color.fromARGB(10, 0, 0, 0),
-                    offset: Offset(0.0, 10.0),
-                    blurRadius: 10.0,
-                  ),
-                  BoxShadow(
-                    color: Color.fromARGB(25, 0, 0, 0),
-                    offset: Offset(0.0, 20.0),
-                    blurRadius: 25.0,
-                  ),
-                  BoxShadow(
-                    color: Color.fromARGB(12, 0, 0, 0),
-                    offset: Offset(0.0, 0.0),
-                    blurRadius: 10.0,
-                  )
-                ],
-        ),
         child: Stack(
             fit: StackFit.expand,
             alignment: Alignment.center,
             overflow: Overflow.visible,
             children: [
               Positioned(
-                left: 0.0,
-                top: 0.0,
-                right: null,
-                bottom: null,
-                width: 109.99993896484375,
-                height: 41.0,
-                child: GeneratedRectangle802Widget3(),
-              ),
-              Positioned(
-                left: -5.684341886080802e-14,
-                top: 15.375,
-                right: null,
-                bottom: null,
-                width: 111.99993896484375,
-                height: 12.25,
+                width: 150,
                 child: GeneratedMOREDETAILSWidget(),
               )
             ]),
-      ),
+      // ),
+    )
+      )
     );
   }
 }

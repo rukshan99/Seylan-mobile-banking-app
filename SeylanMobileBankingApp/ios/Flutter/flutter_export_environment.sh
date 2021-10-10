@@ -1,7 +1,8 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=D:\Flutter\flutter"
-export "FLUTTER_APPLICATION_PATH=F:\Year 3\Sem 2\SeylanBankApp\se3050---uee-2021s2_reg_we_50\SeylanMobileBankingApp"
+
+export "FLUTTER_ROOT=D:\softwares\flutter_windows_2.5.1-stable\flutter"
+export "FLUTTER_APPLICATION_PATH=D:\UEE_Project\se3050---uee-2021s2_reg_we_50\SeylanMobileBankingApp"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
